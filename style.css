@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    /* using unsplash.com to get random images for the background image*/
+    background-image: url('https://source.unsplash.com/1600x900/?nature');
+}
+
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    text-align: center;
+}
+
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    /*The transition effects gives it a delay time when the cursor land on the button*/
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.8em 1em;
+    border-radius: 18px;
+    font-size: 100%;
+}
+
+/*using the hover method to give it a effect when the user cursor moves past the button and it changes color*/
+button:hover {
+    background: #7c7c7c;
+}
+
